@@ -48,7 +48,7 @@
 			
 											<p>Information how many rows we have for particaular working model and to use this in future for count queries:
 											<pre><b>_Total working model = COUNTROWS(DS_salaries)</b></pre></p><br>
-											<p>Calculated how many percent particular working model is by total working models. Calculated to check if I calculated other queries properly:
+											<p>Calculated how many percent particular working model has by total working models. Calculated to check if I calculated other queries properly:
 											<pre><b>% working model =
 	DIVIDE( 
 		[_Total working model], 
@@ -58,7 +58,7 @@
 		)
 	)</b> </pre>	
 										</p><br>
-										<p>Calculated how many hybrid working model has for working models. I did the same query for remote and office work:
+										<p>Calculated how many hybrid working model is for working models. I did the same query for remote and office work:
 										<pre><b>Hybrid = 
 	CALCULATE(
 		[_Total working model],
